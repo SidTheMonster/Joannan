@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1542340190-16cc0d4f88b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080'); /* Festive background */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+    color: #ffcc00; /* Gold color for festive theme */
+}
+
+#gift-card-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#gift-card-link:hover {
+    background-color: #fb8c00;
+}
+
+#wish-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#wish-input {
+    padding: 10px;
+    width: 300px;
+}
+
+#wish-button {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#wish-button:hover {
+    background-color: #fb8c00;
+}
+
+#wish-list {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
